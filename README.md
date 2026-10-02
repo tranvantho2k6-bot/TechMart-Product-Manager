@@ -1,2 +1,12 @@
-# TechMart-Product-Manager
-Ứng dụng Quản lý Danh mục Thiết bị Công nghệ bằng C# Windows Forms - Responsive Layout, Data Binding, Validation
+namespace TechMartProductManager
+{
+    public class Product
+    {
+        public string ProductId { get; set; } = string.Empty;
+        public string ProductName { get; set; } = string.Empty;
+        public string Category { get; set; } = string.Empty;
+        public decimal UnitPrice { get; set; }
+        public int Quantity { get; set; }
+        public string AvatarPath { get; set; } = string.Empty;
+    }
+}
