@@ -10,8 +10,4 @@
     <StartupObject>TechMartProductManager.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Windows.Forms" Version="4.7.0" />
-  </ItemGroup>
-
 </Project>
